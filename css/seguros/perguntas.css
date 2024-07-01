@@ -39,12 +39,14 @@
   background-image: url("../../img/icones/seta-abrir.svg");
 }
 
-.perguntas dd.ativa{
+.js .perguntas dd.ativa{
   display: block;
 
 }
-.perguntas dd {
+.js .perguntas dd{
   display: none;
+}
+.perguntas dd {
   padding-left: 20px;
   padding-top: 16px;
   max-width: 80ch;
